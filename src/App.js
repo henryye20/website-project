@@ -4,10 +4,10 @@ import './App.css';
 
 function App() {
   
-  const [count,setCount] = React.useState(0);
+  const [count,setCount] = React.useState(5);
   
   const handleClick = () => {
-    if (count > 0) {
+    if(count > 0) {
       setCount(count => count - 1);
     }
   };
@@ -20,16 +20,15 @@ function App() {
         <div className="items">Est. 2020</div>
       </div>
       <div className="header">header</div>
-      <div className="nav">nav</div>
+      
       <div className="content">content</div>
       <div className="shop">
         <div className="refresh">REFRESH</div>
         <div className="Slogo">  
-          <button type="button" onClick={handleClick}>
-            Refresh
-            (Cost:1)
+          <button className="but" type="button" onClick={handleClick}>
+
           </button>
-          {count}
+          money: {count}
         </div>
         <div className="item"></div>
         <div className="item"></div>
