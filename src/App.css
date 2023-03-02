@@ -82,7 +82,7 @@
     background-size:contain;
     background-repeat: no-repeat;
     border: 4px solid rgb(78, 94, 185);
-    background-color: rgb(123, 164, 252);
+    background-color: rgb(123, 164, 252); 
   }
   .item4{
     grid-area: e4;
