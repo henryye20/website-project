@@ -11,14 +11,16 @@ function App() {
       setCount(count => count - 1);
     }
   };
+  const itemClick = () => {
+    if(count > 0) {
+      setCount(count => count - 1);
+    }
+  };
+
 
   return (
     <div className="container">
-      <div className="logo">
-        <div className="items">LOGO</div>
-        <div className="items">Business Name</div>
-        <div className="items">Est. 2020</div>
-      </div>
+      
       <div className="header">header</div>
       
       <div className="content">content</div>
@@ -30,8 +32,10 @@ function App() {
           </button>
           money: {count}
         </div>
-        <div className="item"></div>
-        <div className="item"></div>
+        <div className="item1"type="button" onClick={itemClick}></div>
+        <div className="item2"type="button" onClick={itemClick}></div>
+        <div className="item3"type="button" onClick={itemClick}></div>
+        <div className="item4"type="button" onClick={itemClick}></div>
       </div>
     </div>
   );
