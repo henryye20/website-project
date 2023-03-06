@@ -6,11 +6,12 @@ function App() {
   const [verses, setVerses] = useState([]);
 
   useEffect(() => {
-    fetch('https://www.rkeplin.com/api/verse?reference=john%203:16')
-    .then(response => response.json())
-    .then(data =>setVerses(data))
-    .catch(error => console.error(error));
+    fetch('https://www.rkeplin.com/api/verse?reference=John+3:16')
+      .then(response => response.json())
+      .then(data => setVerses(data))
+      .catch(error => console.error(error));
   }, []);
+
   const [count,setCount] = React.useState(5);
   
   const handleClick = () => {
