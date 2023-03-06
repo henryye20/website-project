@@ -6,7 +6,7 @@ function App() {
   const [verses, setVerses] = useState([]);
 
   useEffect(() => {
-    fetch('https://cors-anywhere.herokuapp.com/http://getbible.net/json?passage=Jn3:16')
+    fetch('https://cors-anywhere.herokuapp.com/https://bible-go-api.rkeplin.com/v1/books/1/chapters/1/1001002?translation=ASV')
 
       .then(response => response.json())
       .then(data => setVerses(data))
