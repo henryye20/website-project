@@ -9,7 +9,11 @@ function App() {
     fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://bible-go-api.rkeplin.com/v1/books/1/chapters/1/1001002?translation=ASV'))
 
       .then(response => response.json())
-      .then(data => setVerses(data))
+      .then(data => {
+        console.log(data);
+        setVerses(data);
+        console.log(verses);
+      })
       .catch(error => console.error(error));
   }, []);
 
@@ -23,7 +27,7 @@ function App() {
 
   };
   const itemClick1 = () => {
-    if(count > 0) {
+    if(count > 4) {
       setCount(count => count - 5);
     }
   };
@@ -33,12 +37,12 @@ function App() {
     }
   };
   const itemClick3 = () => {
-    if(count > 0) {
+    if(count > 2) {
       setCount(count => count - 3);
     }
   };
   const itemClick4 = () => {
-    if(count > 0) {
+    if(count > 1) {
       setCount(count => count - 2);
     }
   };
@@ -48,8 +52,8 @@ function App() {
     <div className="container">
       
       <div className="header">
-        <h2>{verses.book} {verses.chapter}:{verses.verse}</h2>
-        <p>{verses.text}</p>
+      <h2>{verses.verse}helo</h2>
+
       </div>
       
       <div className="content">
