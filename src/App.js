@@ -6,7 +6,8 @@ function App() {
   const [verses, setVerses] = useState([]);
 
   useEffect(() => {
-    fetch('https://www.rkeplin.com/api/verse?reference=John+3:16')
+    fetch('https://cors-anywhere.herokuapp.com/http://getbible.net/json?passage=Jn3:16')
+
       .then(response => response.json())
       .then(data => setVerses(data))
       .catch(error => console.error(error));
@@ -47,8 +48,8 @@ function App() {
     <div className="container">
       
       <div className="header">
-        {verses.book} {verses.chapter}:{verses.verse}
-        {verses.text}
+        <h2>{verses.book} {verses.chapter}:{verses.verse}</h2>
+        <p>{verses.text}</p>
       </div>
       
       <div className="content">
