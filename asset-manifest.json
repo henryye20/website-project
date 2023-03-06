@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website-project/static/css/main.784e0e5b.css",
+    "main.css": "/website-project/static/css/main.1005ae7e.css",
     "main.js": "/website-project/static/js/main.1ac29d74.js",
     "static/js/787.50e3dfbd.chunk.js": "/website-project/static/js/787.50e3dfbd.chunk.js",
     "static/media/pope.jpg": "/website-project/static/media/pope.c2c637b438256caa2f1c.jpg",
@@ -9,12 +9,12 @@
     "static/media/background2.png": "/website-project/static/media/background2.170c7b3d140c9bf8d791.png",
     "static/media/priest.jpg": "/website-project/static/media/priest.5c0a77ae310d0238192a.jpg",
     "index.html": "/website-project/index.html",
-    "main.784e0e5b.css.map": "/website-project/static/css/main.784e0e5b.css.map",
+    "main.1005ae7e.css.map": "/website-project/static/css/main.1005ae7e.css.map",
     "main.1ac29d74.js.map": "/website-project/static/js/main.1ac29d74.js.map",
     "787.50e3dfbd.chunk.js.map": "/website-project/static/js/787.50e3dfbd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.784e0e5b.css",
+    "static/css/main.1005ae7e.css",
     "static/js/main.1ac29d74.js"
   ]
 }
