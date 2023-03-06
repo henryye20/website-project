@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/website-project/static/css/main.784e0e5b.css",
+    "main.js": "/website-project/static/js/main.9a1288ec.js",
+    "static/js/787.50e3dfbd.chunk.js": "/website-project/static/js/787.50e3dfbd.chunk.js",
+    "static/media/pope.jpg": "/website-project/static/media/pope.c2c637b438256caa2f1c.jpg",
+    "static/media/bishop.jpg": "/website-project/static/media/bishop.de4ba633c68a72078789.jpg",
+    "static/media/deacon.jpg": "/website-project/static/media/deacon.58fd50a00255bba4d4f1.jpg",
+    "static/media/background2.png": "/website-project/static/media/background2.170c7b3d140c9bf8d791.png",
+    "static/media/priest.jpg": "/website-project/static/media/priest.5c0a77ae310d0238192a.jpg",
+    "index.html": "/website-project/index.html",
+    "main.784e0e5b.css.map": "/website-project/static/css/main.784e0e5b.css.map",
+    "main.9a1288ec.js.map": "/website-project/static/js/main.9a1288ec.js.map",
+    "787.50e3dfbd.chunk.js.map": "/website-project/static/js/787.50e3dfbd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.784e0e5b.css",
+    "static/js/main.9a1288ec.js"
+  ]
+}
